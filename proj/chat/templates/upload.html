@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<form action="" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.name }}name</br>
+    {{ form.lastname }}lastname</br>
+    {{ form.username }}username </br>
+    {% if a.tata %}
+    <font size="1" color="red">this username already taken</font>
+    {% endif %}
+	</br></br>
+    {{ form.password }}password</br>
+    {{ form.password2 }}repeat password </br>
+    {% if a.inin %}
+    <font size="1" color="red">password incorect</font>    {% endif %}
+    </br>
+
+    <input type="submit" value="join now" />
+</form>
+	<form action="/sign" method="get">
+    <input type="submit" value="sign in"/>
+    </form>
+</html>
