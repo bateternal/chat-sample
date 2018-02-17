@@ -1,0 +1,613 @@
+2018-02-13 18:17:18 INFO  Version:45 - HHH000412: Hibernate Core {5.3.0.Beta2}
+2018-02-13 18:17:18 INFO  Environment:211 - HHH000206: hibernate.properties not found
+2018-02-13 18:17:19 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-13 18:17:19 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-02-13 18:17:19 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2018-02-13 18:17:19 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-02-13 18:17:19 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-02-13 18:17:19 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 500 (min=1)
+2018-02-13 18:17:19 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-02-13 18:17:19 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-02-13 18:17:19 INFO  BasicTypeRegistry:148 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@52af26ee
+2018-02-13 18:17:20 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2dbe250d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-02-13 18:17:20 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-13 18:17:20 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukr43af9ap4edm43mmtq01oddj6" for table "users"
+2018-02-13 18:19:19 INFO  Version:45 - HHH000412: Hibernate Core {5.3.0.Beta2}
+2018-02-13 18:19:19 INFO  Environment:211 - HHH000206: hibernate.properties not found
+2018-02-13 18:19:19 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-13 18:19:19 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-02-13 18:19:19 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2018-02-13 18:19:19 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-02-13 18:19:19 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-02-13 18:19:19 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 500 (min=1)
+2018-02-13 18:19:20 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-02-13 18:19:20 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-02-13 18:19:20 INFO  BasicTypeRegistry:148 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@52af26ee
+2018-02-13 18:19:21 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2dbe250d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-02-13 18:20:20 INFO  Version:45 - HHH000412: Hibernate Core {5.3.0.Beta2}
+2018-02-13 18:20:20 INFO  Environment:211 - HHH000206: hibernate.properties not found
+2018-02-13 18:20:20 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-13 18:20:21 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-02-13 18:20:21 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2018-02-13 18:20:21 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-02-13 18:20:21 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-02-13 18:20:21 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 500 (min=1)
+2018-02-13 18:20:21 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-02-13 18:20:21 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-02-13 18:20:21 INFO  BasicTypeRegistry:148 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@52af26ee
+2018-02-13 18:20:22 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2dbe250d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-02-13 18:20:22 INFO  pooling:233 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2018-02-13 18:20:54 INFO  Version:45 - HHH000412: Hibernate Core {5.3.0.Beta2}
+2018-02-13 18:20:54 INFO  Environment:211 - HHH000206: hibernate.properties not found
+2018-02-13 18:20:55 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-13 18:20:55 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-02-13 18:20:55 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2018-02-13 18:20:55 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-02-13 18:20:55 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-02-13 18:20:55 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 500 (min=1)
+2018-02-13 18:20:55 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-02-13 18:20:55 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-02-13 18:20:55 INFO  BasicTypeRegistry:148 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@52af26ee
+2018-02-13 18:20:56 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2dbe250d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-02-13 18:20:56 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-02-13 18:20:56 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "uk_r43af9ap4edm43mmtq01oddj6"
+  Detail: Key (username)=(bateternal) already exists.
+2018-02-13 18:20:56 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-02-13 18:21:18 INFO  Version:45 - HHH000412: Hibernate Core {5.3.0.Beta2}
+2018-02-13 18:21:18 INFO  Environment:211 - HHH000206: hibernate.properties not found
+2018-02-13 18:21:18 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-13 18:21:18 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-02-13 18:21:18 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2018-02-13 18:21:18 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-02-13 18:21:18 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-02-13 18:21:18 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 500 (min=1)
+2018-02-13 18:21:18 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-02-13 18:21:18 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-02-13 18:21:18 INFO  BasicTypeRegistry:148 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@52af26ee
+2018-02-13 18:21:19 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2dbe250d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-02-13 18:21:19 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-02-13 18:21:19 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "uk_r43af9ap4edm43mmtq01oddj6"
+  Detail: Key (username)=(bateternal) already exists.
+2018-02-13 18:21:19 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-02-13 18:21:46 INFO  Version:45 - HHH000412: Hibernate Core {5.3.0.Beta2}
+2018-02-13 18:21:46 INFO  Environment:211 - HHH000206: hibernate.properties not found
+2018-02-13 18:21:46 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-13 18:21:46 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-02-13 18:21:46 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2018-02-13 18:21:46 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-02-13 18:21:46 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-02-13 18:21:46 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 500 (min=1)
+2018-02-13 18:21:46 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-02-13 18:21:46 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-02-13 18:21:46 INFO  BasicTypeRegistry:148 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@52af26ee
+2018-02-13 18:21:47 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2dbe250d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-02-13 18:21:47 INFO  pooling:233 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2018-02-13 18:22:00 INFO  Version:45 - HHH000412: Hibernate Core {5.3.0.Beta2}
+2018-02-13 18:22:00 INFO  Environment:211 - HHH000206: hibernate.properties not found
+2018-02-13 18:22:01 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-13 18:22:01 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-02-13 18:22:01 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2018-02-13 18:22:01 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-02-13 18:22:01 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-02-13 18:22:01 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 500 (min=1)
+2018-02-13 18:22:01 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-02-13 18:22:01 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-02-13 18:22:01 INFO  BasicTypeRegistry:148 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@52af26ee
+2018-02-13 18:22:02 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2dbe250d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-02-13 18:22:02 INFO  pooling:233 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2018-02-13 18:23:05 INFO  Version:45 - HHH000412: Hibernate Core {5.3.0.Beta2}
+2018-02-13 18:23:05 INFO  Environment:211 - HHH000206: hibernate.properties not found
+2018-02-13 18:23:05 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-13 18:23:05 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-02-13 18:23:05 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2018-02-13 18:23:05 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-02-13 18:23:05 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-02-13 18:23:05 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 500 (min=1)
+2018-02-13 18:23:05 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-02-13 18:23:06 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-02-13 18:23:06 INFO  BasicTypeRegistry:148 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@58d75e99
+2018-02-13 18:23:06 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@22d6f11] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-02-13 18:23:06 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-13 18:23:06 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2018-02-13 18:23:06 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-13 18:23:06 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_r43af9ap4edm43mmtq01oddj6" for table "users"
+2018-02-13 18:23:06 INFO  pooling:233 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2018-02-13 18:31:41 INFO  Version:45 - HHH000412: Hibernate Core {5.3.0.Beta2}
+2018-02-13 18:31:41 INFO  Environment:211 - HHH000206: hibernate.properties not found
+2018-02-13 18:31:41 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-13 18:31:41 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-02-13 18:31:41 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2018-02-13 18:31:41 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-02-13 18:31:41 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-02-13 18:31:41 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 500 (min=1)
+2018-02-13 18:31:41 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-02-13 18:31:42 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-02-13 18:31:42 INFO  BasicTypeRegistry:148 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@21e360a
+2018-02-13 18:31:42 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1bb1fde8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-02-13 18:31:42 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-13 18:31:42 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2018-02-13 18:31:42 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-13 18:31:42 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_r43af9ap4edm43mmtq01oddj6" for table "users"
+2018-02-13 18:31:42 INFO  pooling:233 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2018-02-13 18:41:32 INFO  Version:45 - HHH000412: Hibernate Core {5.3.0.Beta2}
+2018-02-13 18:41:32 INFO  Environment:211 - HHH000206: hibernate.properties not found
+2018-02-13 18:41:33 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-13 18:41:33 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-02-13 18:41:33 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2018-02-13 18:41:33 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-02-13 18:41:33 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-02-13 18:41:33 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 500 (min=1)
+2018-02-13 18:41:33 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-02-13 18:41:33 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-02-13 18:41:33 INFO  BasicTypeRegistry:148 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@1b2abca6
+2018-02-13 18:41:34 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2dbe250d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-02-13 18:41:34 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-13 18:41:34 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukr43af9ap4edm43mmtq01oddj6" for table "users"
+2018-02-13 18:41:34 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-02-13 18:41:34 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "uk_r43af9ap4edm43mmtq01oddj6"
+  Detail: Key (username)=(bateternal) already exists.
+2018-02-13 18:41:34 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-02-13 18:41:47 INFO  Version:45 - HHH000412: Hibernate Core {5.3.0.Beta2}
+2018-02-13 18:41:47 INFO  Environment:211 - HHH000206: hibernate.properties not found
+2018-02-13 18:41:48 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-13 18:41:48 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-02-13 18:41:48 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2018-02-13 18:41:48 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-02-13 18:41:48 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-02-13 18:41:48 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 500 (min=1)
+2018-02-13 18:41:48 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-02-13 18:41:48 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-02-13 18:41:48 INFO  BasicTypeRegistry:148 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@4f2b503c
+2018-02-13 18:41:49 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@22d6f11] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-02-13 18:41:49 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-13 18:41:49 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2018-02-13 18:41:49 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-13 18:41:49 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_r43af9ap4edm43mmtq01oddj6" for table "users"
+2018-02-13 18:41:49 INFO  pooling:233 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2018-02-13 18:45:55 INFO  Version:45 - HHH000412: Hibernate Core {5.3.0.Beta2}
+2018-02-13 18:45:55 INFO  Environment:211 - HHH000206: hibernate.properties not found
+2018-02-13 18:45:56 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-13 18:45:56 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-02-13 18:45:56 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2018-02-13 18:45:56 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-02-13 18:45:56 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-02-13 18:45:56 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 500 (min=1)
+2018-02-13 18:45:56 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-02-13 18:45:56 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-02-13 18:45:56 INFO  BasicTypeRegistry:148 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@1b2abca6
+2018-02-13 18:45:57 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2dbe250d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-02-13 18:45:57 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-13 18:45:57 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukr43af9ap4edm43mmtq01oddj6" for table "users"
+2018-02-13 18:45:57 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-02-13 18:45:57 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "uk_r43af9ap4edm43mmtq01oddj6"
+  Detail: Key (username)=(bateternal) already exists.
+2018-02-13 18:45:57 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-02-13 18:46:01 INFO  Version:45 - HHH000412: Hibernate Core {5.3.0.Beta2}
+2018-02-13 18:46:01 INFO  Environment:211 - HHH000206: hibernate.properties not found
+2018-02-13 18:46:02 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-13 18:46:02 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-02-13 18:46:02 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2018-02-13 18:46:02 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-02-13 18:46:02 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-02-13 18:46:02 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 500 (min=1)
+2018-02-13 18:46:02 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-02-13 18:46:02 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-02-13 18:46:02 INFO  BasicTypeRegistry:148 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@4f2b503c
+2018-02-13 18:46:03 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@22d6f11] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-02-13 18:46:03 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-13 18:46:03 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2018-02-13 18:46:03 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-13 18:46:03 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_r43af9ap4edm43mmtq01oddj6" for table "users"
+2018-02-13 18:46:15 INFO  DefaultDeleteEventListener:191 - HHH000114: Handling transient entity in delete processing
+2018-02-13 18:46:59 INFO  Version:45 - HHH000412: Hibernate Core {5.3.0.Beta2}
+2018-02-13 18:46:59 INFO  Environment:211 - HHH000206: hibernate.properties not found
+2018-02-13 18:46:59 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-13 18:46:59 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-02-13 18:46:59 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2018-02-13 18:46:59 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-02-13 18:46:59 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-02-13 18:46:59 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 500 (min=1)
+2018-02-13 18:47:00 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-02-13 18:47:00 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-02-13 18:47:00 INFO  BasicTypeRegistry:148 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@1b2abca6
+2018-02-13 18:47:00 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2dbe250d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-02-13 18:47:00 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-13 18:47:00 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2018-02-13 18:47:00 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-13 18:47:00 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_r43af9ap4edm43mmtq01oddj6" for table "users"
+2018-02-13 18:47:10 INFO  DefaultDeleteEventListener:191 - HHH000114: Handling transient entity in delete processing
+2018-02-13 18:47:10 INFO  pooling:233 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2018-02-13 18:47:34 INFO  Version:45 - HHH000412: Hibernate Core {5.3.0.Beta2}
+2018-02-13 18:47:34 INFO  Environment:211 - HHH000206: hibernate.properties not found
+2018-02-13 18:47:35 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-13 18:47:35 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-02-13 18:47:35 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2018-02-13 18:47:35 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-02-13 18:47:35 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-02-13 18:47:35 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 500 (min=1)
+2018-02-13 18:47:35 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-02-13 18:47:35 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-02-13 18:47:35 INFO  BasicTypeRegistry:148 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@4f2b503c
+2018-02-13 18:47:36 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@22d6f11] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-02-13 18:47:36 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-13 18:47:36 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2018-02-13 18:47:36 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-13 18:47:36 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_r43af9ap4edm43mmtq01oddj6" for table "users"
+2018-02-13 18:47:48 INFO  DefaultDeleteEventListener:191 - HHH000114: Handling transient entity in delete processing
+2018-02-13 18:47:48 INFO  pooling:233 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2018-02-13 18:48:11 INFO  Version:45 - HHH000412: Hibernate Core {5.3.0.Beta2}
+2018-02-13 18:48:11 INFO  Environment:211 - HHH000206: hibernate.properties not found
+2018-02-13 18:48:11 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-13 18:48:12 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-02-13 18:48:12 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2018-02-13 18:48:12 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-02-13 18:48:12 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-02-13 18:48:12 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 500 (min=1)
+2018-02-13 18:48:12 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-02-13 18:48:12 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-02-13 18:48:12 INFO  BasicTypeRegistry:148 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@1b2abca6
+2018-02-13 18:48:13 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2dbe250d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-02-13 18:48:13 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-13 18:48:13 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukr43af9ap4edm43mmtq01oddj6" for table "users"
+2018-02-13 18:48:13 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-02-13 18:48:13 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "uk_r43af9ap4edm43mmtq01oddj6"
+  Detail: Key (username)=(bateternal) already exists.
+2018-02-13 18:48:13 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-02-13 18:49:20 INFO  Version:45 - HHH000412: Hibernate Core {5.3.0.Beta2}
+2018-02-13 18:49:20 INFO  Environment:211 - HHH000206: hibernate.properties not found
+2018-02-13 18:49:20 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-13 18:49:21 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-02-13 18:49:21 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2018-02-13 18:49:21 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-02-13 18:49:21 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-02-13 18:49:21 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 500 (min=1)
+2018-02-13 18:49:21 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-02-13 18:49:21 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-02-13 18:49:21 INFO  BasicTypeRegistry:148 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@4f2b503c
+2018-02-13 18:49:22 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@22d6f11] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-02-13 18:49:22 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-13 18:49:22 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2018-02-13 18:49:22 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-13 18:49:22 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_r43af9ap4edm43mmtq01oddj6" for table "users"
+2018-02-13 18:49:28 INFO  DefaultDeleteEventListener:191 - HHH000114: Handling transient entity in delete processing
+2018-02-13 18:49:28 INFO  pooling:233 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2018-02-13 18:49:47 INFO  Version:45 - HHH000412: Hibernate Core {5.3.0.Beta2}
+2018-02-13 18:49:47 INFO  Environment:211 - HHH000206: hibernate.properties not found
+2018-02-13 18:49:47 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-13 18:49:47 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-02-13 18:49:47 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2018-02-13 18:49:47 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-02-13 18:49:47 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-02-13 18:49:47 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 500 (min=1)
+2018-02-13 18:49:47 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-02-13 18:49:48 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-02-13 18:49:48 INFO  BasicTypeRegistry:148 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@1b2abca6
+2018-02-13 18:49:48 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2dbe250d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-02-13 18:49:48 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-13 18:49:48 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukr43af9ap4edm43mmtq01oddj6" for table "users"
+2018-02-13 18:49:48 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-02-13 18:49:48 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "uk_r43af9ap4edm43mmtq01oddj6"
+  Detail: Key (username)=(bateternal) already exists.
+2018-02-13 18:49:48 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-02-13 18:58:06 INFO  Version:45 - HHH000412: Hibernate Core {5.3.0.Beta2}
+2018-02-13 18:58:06 INFO  Environment:211 - HHH000206: hibernate.properties not found
+2018-02-13 18:58:07 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-13 18:58:07 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-02-13 18:58:07 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2018-02-13 18:58:07 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-02-13 18:58:07 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-02-13 18:58:07 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 500 (min=1)
+2018-02-13 18:58:07 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-02-13 18:58:07 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-02-13 18:58:07 INFO  BasicTypeRegistry:148 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@4f2b503c
+2018-02-13 18:58:08 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@22d6f11] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-02-13 18:58:08 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-13 18:58:08 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2018-02-13 18:58:08 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-13 18:58:08 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_r43af9ap4edm43mmtq01oddj6" for table "users"
+2018-02-13 18:58:22 INFO  Version:45 - HHH000412: Hibernate Core {5.3.0.Beta2}
+2018-02-13 18:58:22 INFO  Environment:211 - HHH000206: hibernate.properties not found
+2018-02-13 18:58:22 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-13 18:58:23 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-02-13 18:58:23 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2018-02-13 18:58:23 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-02-13 18:58:23 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-02-13 18:58:23 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 500 (min=1)
+2018-02-13 18:58:23 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-02-13 18:58:23 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-02-13 18:58:23 INFO  BasicTypeRegistry:148 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@4f2b503c
+2018-02-13 18:58:24 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@22d6f11] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-02-13 18:58:24 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-13 18:58:24 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2018-02-13 18:58:24 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-13 18:58:24 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_r43af9ap4edm43mmtq01oddj6" for table "users"
+2018-02-13 19:04:25 INFO  Version:45 - HHH000412: Hibernate Core {5.3.0.Beta2}
+2018-02-13 19:04:25 INFO  Environment:211 - HHH000206: hibernate.properties not found
+2018-02-13 19:04:26 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-13 19:04:26 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-02-13 19:04:26 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2018-02-13 19:04:26 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-02-13 19:04:26 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-02-13 19:04:26 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 500 (min=1)
+2018-02-13 19:04:27 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-02-13 19:04:27 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-02-13 19:04:27 INFO  BasicTypeRegistry:148 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@675d8c96
+2018-02-13 19:04:27 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@43da41e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-02-13 19:04:27 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-13 19:04:27 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2018-02-13 19:04:27 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-13 19:04:27 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_r43af9ap4edm43mmtq01oddj6" for table "users"
+2018-02-13 19:05:57 INFO  pooling:233 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2018-02-13 19:24:33 INFO  Version:45 - HHH000412: Hibernate Core {5.3.0.Beta2}
+2018-02-13 19:24:33 INFO  Environment:211 - HHH000206: hibernate.properties not found
+2018-02-13 19:24:34 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-13 19:24:34 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-02-13 19:24:34 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2018-02-13 19:24:34 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-02-13 19:24:34 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-02-13 19:24:34 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 500 (min=1)
+2018-02-13 19:24:34 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-02-13 19:24:34 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-02-13 19:24:34 INFO  BasicTypeRegistry:148 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@68d6972f
+2018-02-13 19:24:35 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@39ad12b6] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-02-13 19:24:35 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-13 19:24:35 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukr43af9ap4edm43mmtq01oddj6" for table "users"
+2018-02-14 11:07:12 INFO  Version:45 - HHH000412: Hibernate Core {5.3.0.Beta2}
+2018-02-14 11:07:12 INFO  Environment:211 - HHH000206: hibernate.properties not found
+2018-02-14 11:07:12 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-14 11:07:12 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-02-14 11:07:12 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2018-02-14 11:07:12 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-02-14 11:07:12 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-02-14 11:07:12 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 500 (min=1)
+2018-02-14 11:07:13 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-02-14 11:07:13 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-02-14 11:07:13 INFO  BasicTypeRegistry:148 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@209da20d
+2018-02-14 11:07:13 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2453f95d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-02-14 11:07:13 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-02-14 11:07:14 ERROR ErrorTracker:62 - line 1:32: unexpected token: .
+2018-02-14 11:07:14 ERROR ErrorTracker:57 - line 1:32: unexpected token: .
+line 1:32: unexpected token: .
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.fromClassOrOuterQueryPath(HqlBaseParser.java:1972)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.fromRange(HqlBaseParser.java:1499)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.fromClause(HqlBaseParser.java:1343)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectFrom(HqlBaseParser.java:1063)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.queryRule(HqlBaseParser.java:748)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectStatement(HqlBaseParser.java:319)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:198)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:289)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:186)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:141)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:120)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:81)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:153)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:560)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:669)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:103)
+	at Myapp.main(Myapp.java:54)
+2018-02-14 11:09:37 INFO  Version:45 - HHH000412: Hibernate Core {5.3.0.Beta2}
+2018-02-14 11:09:37 INFO  Environment:211 - HHH000206: hibernate.properties not found
+2018-02-14 11:09:37 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-14 11:09:37 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-02-14 11:09:37 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2018-02-14 11:09:37 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-02-14 11:09:37 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-02-14 11:09:37 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 500 (min=1)
+2018-02-14 11:09:37 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-02-14 11:09:38 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-02-14 11:09:38 INFO  BasicTypeRegistry:148 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@209da20d
+2018-02-14 11:09:38 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2453f95d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-02-14 11:09:38 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-02-14 11:09:38 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "uk_r43af9ap4edm43mmtq01oddj6"
+  Detail: Key (username)=(bateternal) already exists.
+2018-02-14 11:09:38 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-02-14 11:09:57 INFO  Version:45 - HHH000412: Hibernate Core {5.3.0.Beta2}
+2018-02-14 11:09:57 INFO  Environment:211 - HHH000206: hibernate.properties not found
+2018-02-14 11:09:57 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-14 11:09:57 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-02-14 11:09:57 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2018-02-14 11:09:57 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-02-14 11:09:57 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-02-14 11:09:57 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 500 (min=1)
+2018-02-14 11:09:57 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-02-14 11:09:58 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-02-14 11:09:58 INFO  BasicTypeRegistry:148 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@52af26ee
+2018-02-14 11:09:58 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1bb1fde8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-02-14 11:09:58 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-14 11:09:58 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2018-02-14 11:09:58 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-14 11:09:58 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_r43af9ap4edm43mmtq01oddj6" for table "users"
+2018-02-14 11:09:58 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-02-14 11:09:58 ERROR ErrorTracker:62 - line 1:11: unexpected token: ‌FROM
+2018-02-14 11:09:58 ERROR ErrorTracker:57 - line 1:11: unexpected token: ‌FROM
+line 1:11: unexpected token: ‌FROM
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.aliasedExpression(HqlBaseParser.java:2383)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectedPropertiesList(HqlBaseParser.java:1390)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectClause(HqlBaseParser.java:1300)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectFrom(HqlBaseParser.java:1040)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.queryRule(HqlBaseParser.java:748)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectStatement(HqlBaseParser.java:319)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:198)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:289)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:186)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:141)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:120)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:81)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:153)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:560)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:669)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:103)
+	at Myapp.main(Myapp.java:54)
+2018-02-14 11:13:00 INFO  Version:45 - HHH000412: Hibernate Core {5.3.0.Beta2}
+2018-02-14 11:13:00 INFO  Environment:211 - HHH000206: hibernate.properties not found
+2018-02-14 11:13:00 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-14 11:13:01 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-02-14 11:13:01 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2018-02-14 11:13:01 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-02-14 11:13:01 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-02-14 11:13:01 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 500 (min=1)
+2018-02-14 11:13:01 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-02-14 11:13:01 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-02-14 11:13:01 INFO  BasicTypeRegistry:148 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@52af26ee
+2018-02-14 11:13:02 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1bb1fde8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-02-14 11:13:02 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-14 11:13:02 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2018-02-14 11:13:02 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-14 11:13:02 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_r43af9ap4edm43mmtq01oddj6" for table "users"
+2018-02-14 11:13:02 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-02-14 11:14:29 INFO  Version:45 - HHH000412: Hibernate Core {5.3.0.Beta2}
+2018-02-14 11:14:29 INFO  Environment:211 - HHH000206: hibernate.properties not found
+2018-02-14 11:14:29 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-14 11:14:29 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-02-14 11:14:29 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2018-02-14 11:14:29 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-02-14 11:14:29 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-02-14 11:14:29 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 500 (min=1)
+2018-02-14 11:14:29 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-02-14 11:14:29 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-02-14 11:14:29 INFO  BasicTypeRegistry:148 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@52af26ee
+2018-02-14 11:14:30 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1bb1fde8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-02-14 11:14:30 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-14 11:14:30 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2018-02-14 11:14:30 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-14 11:14:30 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_r43af9ap4edm43mmtq01oddj6" for table "users"
+2018-02-14 11:14:30 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-02-14 11:18:15 INFO  Version:45 - HHH000412: Hibernate Core {5.3.0.Beta2}
+2018-02-14 11:18:15 INFO  Environment:211 - HHH000206: hibernate.properties not found
+2018-02-14 11:18:16 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-14 11:18:16 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-02-14 11:18:16 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2018-02-14 11:18:16 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-02-14 11:18:16 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-02-14 11:18:16 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 500 (min=1)
+2018-02-14 11:18:16 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-02-14 11:18:16 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-02-14 11:18:16 INFO  BasicTypeRegistry:148 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@52af26ee
+2018-02-14 11:18:17 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1bb1fde8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-02-14 11:18:17 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-14 11:18:17 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2018-02-14 11:18:17 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-14 11:18:17 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_r43af9ap4edm43mmtq01oddj6" for table "users"
+2018-02-14 11:18:17 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-02-14 12:38:33 INFO  Version:45 - HHH000412: Hibernate Core {5.3.0.Beta2}
+2018-02-14 12:38:33 INFO  Environment:211 - HHH000206: hibernate.properties not found
+2018-02-14 12:38:33 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-14 12:38:33 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-02-14 12:38:34 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2018-02-14 12:38:34 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-02-14 12:38:34 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-02-14 12:38:34 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 500 (min=1)
+2018-02-14 12:38:34 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-02-14 12:38:34 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-02-14 12:38:34 INFO  BasicTypeRegistry:148 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@73eb439a
+2018-02-14 12:38:34 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@63c5efee] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-02-14 12:38:34 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-14 12:38:34 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukr43af9ap4edm43mmtq01oddj6" for table "users"
+2018-02-14 13:04:36 INFO  Version:45 - HHH000412: Hibernate Core {5.3.0.Beta2}
+2018-02-14 13:04:36 INFO  Environment:211 - HHH000206: hibernate.properties not found
+2018-02-14 13:04:36 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-14 13:04:36 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-02-14 13:04:36 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2018-02-14 13:04:36 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-02-14 13:04:36 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-02-14 13:04:36 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 500 (min=1)
+2018-02-14 13:04:36 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-02-14 13:04:37 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-02-14 13:04:37 INFO  BasicTypeRegistry:148 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@73eb439a
+2018-02-14 13:04:37 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@63c5efee] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-02-14 13:07:25 INFO  Version:45 - HHH000412: Hibernate Core {5.3.0.Beta2}
+2018-02-14 13:07:25 INFO  Environment:211 - HHH000206: hibernate.properties not found
+2018-02-14 13:07:25 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-14 13:07:26 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-02-14 13:07:26 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2018-02-14 13:07:26 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-02-14 13:07:26 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-02-14 13:07:26 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 500 (min=1)
+2018-02-14 13:07:26 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-02-14 13:07:26 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-02-14 13:07:26 INFO  BasicTypeRegistry:148 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@73eb439a
+2018-02-14 13:07:27 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@63c5efee] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-02-14 13:10:12 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-02-14 13:10:12 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "uk_r43af9ap4edm43mmtq01oddj6"
+  Detail: Key (username)=(bateternall) already exists.
+2018-02-14 13:10:12 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-02-14 13:11:19 INFO  Version:45 - HHH000412: Hibernate Core {5.3.0.Beta2}
+2018-02-14 13:11:19 INFO  Environment:211 - HHH000206: hibernate.properties not found
+2018-02-14 13:11:19 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-14 13:11:19 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-02-14 13:11:19 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2018-02-14 13:11:19 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-02-14 13:11:19 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-02-14 13:11:19 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 500 (min=1)
+2018-02-14 13:11:19 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-02-14 13:11:19 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-02-14 13:11:19 INFO  BasicTypeRegistry:148 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@73eb439a
+2018-02-14 13:11:20 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@63c5efee] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-02-14 13:37:25 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-02-14 13:37:25 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "uk_r43af9ap4edm43mmtq01oddj6"
+  Detail: Key (username)=(bateternal) already exists.
+2018-02-14 13:37:25 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-02-14 13:38:10 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-02-14 13:38:10 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "uk_r43af9ap4edm43mmtq01oddj6"
+  Detail: Key (username)=(bateternal) already exists.
+2018-02-14 13:38:10 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-02-14 13:39:05 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-02-14 13:39:05 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "uk_r43af9ap4edm43mmtq01oddj6"
+  Detail: Key (username)=(bateternal) already exists.
+2018-02-14 13:39:05 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-02-14 13:40:26 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-02-14 13:40:26 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "uk_r43af9ap4edm43mmtq01oddj6"
+  Detail: Key (username)=(bateternal) already exists.
+2018-02-14 13:40:26 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-02-14 13:42:00 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-02-14 13:42:00 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "uk_r43af9ap4edm43mmtq01oddj6"
+  Detail: Key (username)=(bateternal) already exists.
+2018-02-14 13:42:00 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-02-14 13:42:54 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-02-14 13:42:54 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "uk_r43af9ap4edm43mmtq01oddj6"
+  Detail: Key (username)=(bateternal) already exists.
+2018-02-14 13:42:54 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-02-14 14:25:11 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-02-14 14:25:11 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "uk_r43af9ap4edm43mmtq01oddj6"
+  Detail: Key (username)=(bateternal) already exists.
+2018-02-14 14:25:11 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-02-14 14:25:22 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-02-14 14:25:22 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "uk_r43af9ap4edm43mmtq01oddj6"
+  Detail: Key (username)=(bateternal) already exists.
+2018-02-14 14:25:22 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-02-14 14:27:04 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-02-14 14:27:04 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "uk_r43af9ap4edm43mmtq01oddj6"
+  Detail: Key (username)=(bateternal) already exists.
+2018-02-14 14:27:04 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-02-14 14:28:07 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-02-14 14:28:07 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "uk_r43af9ap4edm43mmtq01oddj6"
+  Detail: Key (username)=(bateternal) already exists.
+2018-02-14 14:28:07 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-02-14 14:35:57 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-02-14 14:35:57 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "uk_r43af9ap4edm43mmtq01oddj6"
+  Detail: Key (username)=(515) already exists.
+2018-02-14 14:35:57 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-02-17 15:32:13 INFO  Version:45 - HHH000412: Hibernate Core {5.3.0.Beta2}
+2018-02-17 15:32:13 INFO  Environment:211 - HHH000206: hibernate.properties not found
+2018-02-17 15:32:13 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-17 15:32:14 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-02-17 15:32:14 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2018-02-17 15:32:14 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-02-17 15:32:14 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-02-17 15:32:14 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 500 (min=1)
+2018-02-17 15:35:45 INFO  Version:45 - HHH000412: Hibernate Core {5.3.0.Beta2}
+2018-02-17 15:35:45 INFO  Environment:211 - HHH000206: hibernate.properties not found
+2018-02-17 15:35:46 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-17 15:35:46 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-02-17 15:35:46 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2018-02-17 15:35:46 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-02-17 15:35:46 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-02-17 15:35:46 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 500 (min=1)
+2018-02-17 15:35:46 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-02-17 15:35:46 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-02-17 15:35:46 INFO  BasicTypeRegistry:148 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@73eb439a
+2018-02-17 15:35:47 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@63c5efee] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-02-17 15:47:45 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-02-17 15:47:45 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "uk_r43af9ap4edm43mmtq01oddj6"
+  Detail: Key (username)=(vbn vgbn) already exists.
+2018-02-17 15:47:45 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
