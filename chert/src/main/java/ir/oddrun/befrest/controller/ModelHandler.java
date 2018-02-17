@@ -30,12 +30,32 @@ public class ModelHandler {
             Query query = session.createQuery(hql);
             query.setParameter("a", username);
             List results = query.list();
-            if(results.get(0)==password)return true;
+            System.out.println("0000000000000000000000000000000000000000000000000000000000000000000000");
+            System.out.println(results);
+            System.out.println(password);
+            System.out.println(results.get(0));
+            if(results.get(0).toString().equals(password)) {
+                System.out.println("salam");
+                return true;
+            }
             return false;
         }
         catch(Exception e){
             return false;
         }
 
+    }
+
+    public static String GetName(Session session,String username){
+        try {
+            String hql = "SELECT E.name FROM Users E WHERE E.username = :a ";
+            Query query = session.createQuery(hql);
+            query.setParameter("a", username);
+            List results = query.list();
+            return results.get(0).toString();
+        }
+        catch(Exception e){
+            return "{234}";
+        }
     }
 }

@@ -36,6 +36,7 @@ public class Myapp {
         session.beginTransaction();
         ///
         view.create(session);
+//        view.check(session);
         session.getTransaction().commit();
 //        Scanner s = new Scanner(System.in);
 //        int i= s.nextInt();
