@@ -1,10 +1,12 @@
 package ir.oddrun.befrest.views;
 
+import ir.oddrun.befrest.tools.BefrestAuth;
 import org.hibernate.Session;
 
 import static ir.oddrun.befrest.controller.ModelHandler.Check;
 import static ir.oddrun.befrest.controller.ModelHandler.GetName;
 import static ir.oddrun.befrest.controller.ModelHandler.SaveToDatabase;
+import static ir.oddrun.befrest.tools.Publish.publish;
 import static org.boon.Boon.toJson;
 import static spark.Spark.get;
 import static spark.Spark.post;
@@ -32,6 +34,17 @@ public class view {
         post("/getname",(req,res) -> {
             String username = req.raw().getParameter("uname");
             return GetName(session,username);
+        });
+        post("/getauth",(req,res)->{
+            String username = req.raw().getParameter("uname");
+            return BefrestAuth.generateSubscriptionAuth(username);
+        });
+        post("/send",(req,res) -> {
+            String username = req.raw().getParameter("uname");
+            String content = req.raw().getParameter("content");
+            boolean b = publish(username,content);
+            if(b)return "ok";
+            return "fail";
         });
     }
 //    public static void check(Session session){
