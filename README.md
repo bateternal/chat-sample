@@ -1,5 +1,6 @@
 # push with befrest
 
+<<<<<<< HEAD
 [![befrest](https://img.shields.io/badge/befrest-document-red.svg)](https://bef.rest/documentation)
 
 # چرا و کجا باید از بفرست استفاده کنیم؟
@@ -42,3 +43,8 @@
 
 
  
+=======
+[![TeamCity (simple build status)](https://img.shields.io/badge/befrest-document-red.svg)](https://bef.rest/documentation)
+
+
+>>>>>>> ce401d69dcd790342de2069871e433e28600cb61
