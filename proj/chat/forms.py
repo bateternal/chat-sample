@@ -14,3 +14,14 @@ class sign(forms.Form):
 class c():
 	inin = False
 	tata = False
+
+class Chat(forms.Form):
+	content = forms.CharField(label='content',widget=forms.Textarea)
+	username = forms.CharField(label='username',max_length=100)
+
+class name():
+	name = "unknown"
+
+class auth():
+	token = ""
+	uname = ""

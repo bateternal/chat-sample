@@ -2,7 +2,7 @@
 from __future__ import unicode_literals
 
 from django.shortcuts import render,redirect
-from .forms import Form,c,sign
+from .forms import Form,c,sign,Chat,name,auth
 import requests
 from django.http import HttpResponse,HttpResponseRedirect
 from django.contrib.sessions.backends.db import SessionStore
@@ -46,23 +46,76 @@ def create(request):
             	request.session['test']=12345
             	request.session['user']=username
             	s.save()
-            	return HttpResponseRedirect('/login/')
+            	return HttpResponseRedirect('/chat/')
             # newdoc.save()
             
             
         else:
             print("nashod")
     return render(request, 'upload.html', {'form': form,'a':a})
+
+def close(request):
+	try:
+		a = request.session.pop('test')
+		b = request.session.pop('user')
+		print a,b
+	except:
+		print "ajab"
+		pass
+	return HttpResponseRedirect('/sign/')
+
 def chat(request):
-	#request.session.test_cookie_worked():
-	if request.session['test']==12345:
+	a = auth()
+	s = SessionStore()
+	t = {}
+	fo = Chat(request.POST or None)
+	n = name()
+	try:
 		user = request.session['user']
-			# code here
-		return HttpResponse("you joined!")
+		r = requests.post('http://127.0.0.1:8080/getname',data={'uname':user})
+		print r.text
+		n.name = r.text
+		rr = requests.post('http://127.0.0.1:8080/getauth',data={'uname':user})
+		a.token = rr.text
+		a.uname = user
+	except Exception as e:
+			pass
+	if request.method == 'POST':
+		if fo.is_valid():
+			print 23456
+			try:
+				if request.session['test']==12345:
+					print fo.cleaned_data
+					content = fo.cleaned_data['content']
+					uname = fo.cleaned_data['username']
+					r = requests.post('http://127.0.0.1:8080/send',data={'uname':uname,'content':content})
+					print 22
+					print r.text
+					if r.text=="ok":
+						print 22
+						print r.text
+						return HttpResponse('sent')
+					else:
+						return HttpResponse('please test another time!')
+					print user,1234254
+					t = {'form':fo,'r':a}
+			except Exception as e:
+				print e
+				pass
+		else:
+			print "nashod"
 	else:
-		return HttpResponseRedirect('/signin/')
+		t = {'form':fo,'s':n,'r':a}
+	return render(request, 'chat.html', t)
 	
 def signin(request):
+	try:
+		if request.session['test']==12345:
+			return HttpResponseRedirect('/chat/')
+		
+	except Exception as e:
+		pass
+	
 	s = SessionStore()
 
 	formm = sign(request.POST or None)
@@ -84,6 +137,7 @@ def signin(request):
 			request.session['test']=12345
 			request.session['user']=uname
 			s.save()
+			return HttpResponseRedirect('/chat/')
 		else:
 			print("nashod")
 	return render(request,'sign.html',{'form':formm,'a':a})

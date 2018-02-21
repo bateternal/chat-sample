@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+</head>
+
+<body>
+
+	<form action="" method="post" enctype="multipart/form-data">
+	    {% csrf_token %}
+	    welcome {{ s.name }} </br>
+	    {{ form.content }}content</br>
+	    to:{{ form.username }} </br>
+	    <input type="submit" value="send" />
+	</form>
+	<form action="/close" method="get">
+	    <input type="submit" value="close"/>
+	</form>
+
+	<script type="text/javascript" src="https://bef.rest/sdk/web/befrest.min.js"></script>
+	<script type="text/javascript">
+
+		var onMessage = function(msg) {
+			alert(msg);
+		};
+
+		var uid="11257";
+		var auth = "{{ r.token }}"
+		var chid = "{{ r.uname }}"
+		befrest.init(uid, chid, auth, onMessage);
+		befrest.start();
+
+		
+
+	</script>
+
+</body>
+</html>
